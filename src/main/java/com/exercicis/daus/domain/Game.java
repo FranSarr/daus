@@ -29,7 +29,7 @@ public class Game {
         Random dc1 = new Random();
         Random dc2 = new Random();
         int roll1 = dc1.nextInt(6)+1;
-        int roll2 = dc1.nextInt(6)+1;
+        int roll2 = dc2.nextInt(6)+1;
         int result = roll1 + roll2;
         Boolean isSeven = false;
         if (result==7) { isSeven=true; }
